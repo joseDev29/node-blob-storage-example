@@ -1,6 +1,6 @@
-if (process.env.NODE_ENV === "development") {
-  const dotenv = require("dotenv");
-  dotenv.config();
+if (process.env.NODE_ENV === 'development') {
+  const dotenv = require('dotenv')
+  dotenv.config()
 }
 
 module.exports = {
@@ -11,4 +11,4 @@ module.exports = {
     accountName: process.env.AZURE_STORAGE_ACCOUNT,
     containerName: process.env.AZURE_STORAGE_CONTAINER_NAME,
   },
-};
+}

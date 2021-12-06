@@ -1,7 +1,7 @@
-const azurestorageService = require("azure-storage");
+const azurestorageService = require('azure-storage')
 
-const blobservice = azurestorageService.createBlobService();
+const blobservice = azurestorageService.createBlobService()
 
 module.exports = {
   blobservice,
-};
+}
